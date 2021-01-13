@@ -83,18 +83,37 @@
      <hr>
      <h1>Formularios</h1>
      <form action="">
-         <input type="text" placeholder="Nombre:">
+
+         <input name="miNombre" type="text" placeholder="Nombre:">
          <input type="number" value="0"><br>
          <input type="password" placeholder="Contraseña:">
          <input type="date">
+         <br>
+         <textarea disabled name="" id="" cols="22" rows="5" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit"></textarea>
          <hr>
          <select name="" id="">
-             <option value="">Madrid</option>
              <option value="">Valencia</option>
+             <option selected  value="">Madrid</option>
              <option value="">Barcelona</option>
          </select>
          <br>
-         <input type="submit" value="Envio">
+         <input type="submit" value="Envio 1">
+         <button>Envio 2</button><!--La diferencia con submit es que no hace falta el value-->
      </form>
+     <hr>
+     <form action="">
+        <label for="">Introduce tu nombre:</label> <!--label agrupa el input al que va relacionado-->
+        <input type="text"> 
+        <br><br>
+        <label for="">Introduce tu contraseña:</label> 
+        <input type="password">
+        <br><br>
+        <button>Enviar datos</button>
+     </form>
+     <p>Lorem ipsum dolor sit amet.</p>
+     <p>OK</p>
+     <br>
+     <br>
+     <br>
 </body>
 </html>

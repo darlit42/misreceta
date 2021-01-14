@@ -1,49 +1,148 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Mis recetas</title>
-        <meta name="description" content="Página web sobre mis recetas">
-        <meta name="keywords" content="Recetas, cocina, gastronomía">    
-    </head>
-    <body>
-        <header style="background-color: red;">
-            Mis recetas
-        </header>
-        <nav style="background-color: orange;">Inicio | Recetas | Contactar</nav>
-        <main style="background-color: green;"> 
-            <section style="background-color:blue">
-                <article style="background-color: blueviolet;">
-                    <header style="background-color: chartreuse;">Receta 1</header>
-                        <p style="background-color: chartreuse;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio itaque facere officiis non voluptates, temporibus, sapiente ea labore aut alias quis odio quasi id corrupti nihil necessitatibus modi est.
-                        </p>
-                </article>
-                <article style="background-color: blueviolet;">
-                    <header style="background-color: chartreuse;">Receta 2</header>
-                        <p style="background-color: chartreuse;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio itaque facere officiis non voluptates, temporibus, sapiente ea labore aut alias quis odio quasi id corrupti nihil necessitatibus modi est.
-                        </p>
-                </article>
-                <article style="background-color: blueviolet;">
-                    <header style="background-color: chartreuse;">Receta 3</header>
-                        <p style="background-color: chartreuse;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio itaque facere officiis non voluptates, temporibus, sapiente ea labore aut alias quis odio quasi id corrupti nihil necessitatibus modi est.
-                        </p>
-                </article>
-            </section>
-        
-            <aside style="background-color: chocolate">
-                <header>Menu del día</header>
-                <ul>
-                    <li>receta 6</li> 
-                    <li>receta 7</li>
-                    <li>receta 9</li>
-                </ul>
-            </aside>
-        </main>
-    
-        <footer style="background-color:coral;">Footer - 2021 - &copy;</footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web sobre mis recetas">
+    <meta name="keywords" content="Recetas, cocina, gastronomía">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis recetas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
 
+        .contenedor {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            border: 1px solid #aaa;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        nav {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: yellow;
+            
+        }
+
+        main {
+            border: 1px solid blue;
+            padding: 60px;
+            margin-bottom: 10px;
+
+            display: flex;
+
+        }
+
+        section, aside {
+            border: 2px solid black;
+        }
+
+        section {
+            width: 75%;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        section .recetas {
+            width: 40%;
+            border: 1px solid green;
+            margin-bottom: 5px;
+
+        }
+
+        img {
+            width: 100px;
+            height: 70px;
+        }
+
+        aside {
+            width: 20%;
+            margin-left: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        aside ul {
+            margin-top: 10px;
+        }
+
+        aside ul li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        footer {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        header, nav, footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+    <header>
+       <a href="index.html">Mis recetas</a> 
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        |
+        <a href="recetas.html">Recetas</a>
+        |
+        <a href="contactar.html">Contactar</a>
+    </nav>
+
+    <main>
+        <section >
+            <div class="recetas">
+                <h2><a href="">Receta 1</a> </h2> 
+                <a href=""> <img src="_resources/espaguetis-de-calabacin.jpg" alt=""></a>
+            </div>
+            <div class="recetas">
+                <h2><a href="">Receta 2</a> </h2> 
+               <a href=""> <img src="_resources/lubina-con-hummus-de-guisantes.jpg" alt=""></a>
+            </div>
+            <div class="recetas">
+                <h2><a href="">Receta 3</a> </h2> 
+               <a href=""><img src="_resources/tiramisu-express.jpg" alt=""></a> 
+            </div>
+            <div class="recetas">
+                <h2><a href="">Receta 4</a> </h2> 
+               <a href=""> <img src="_resources/vichyssoise-de-esparragos-blancos.jpg" alt=""></a>
+            </div>
+        </section>
+        <aside>
+            <h3>Menú del día</h3>
+            <ul>
+                <li><a href="#">Receta 6</a></li>
+                <li><a href="#">Receta 7</a></li>
+                <li><a href="#">Receta 9</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>Footer - 2020 &copy;</footer>
+</div>
+</body>
 </html>

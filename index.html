@@ -6,7 +6,10 @@
     <meta name="keywords" content="Recetas, cocina, gastronomía">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis recetas</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* SELECTOR UNIVERSAL */
         * {
             margin: 0;
             padding: 0;
@@ -15,30 +18,65 @@
             -moz-box-sizing: border-box;
         }
 
+        body {
+            font-family: 'Caveat', cursive;
+            background: url(_resources/fondo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        /* CONTENEDOR PRINCIPAL */
         .contenedor {
             width: 90%;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: auto;
         }
-
+        /* CABECERA */
         header {
             border: 1px solid #aaa;
             padding: 10px;
-            margin: 10px 0;
+            margin: 50px 0 10px 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            background: rgba(75,75,75, .4);
+        }
+
+        header a {
+            color: rgb(73, 73, 73);
+        }
+
+
+        header a img {
+            width: 35px;
+            height: 30px;
         }
 
         nav {
             border: 1px solid black;
             padding: 10px;
             margin-bottom: 10px;
-            background-color: yellow;
-            
+            background-color: rgb(255, 255, 165);
+            font-size: 1.5em;
         }
 
+        nav a {
+            color: rgb(105, 105, 105);
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        nav .active {
+            color: black;
+            
+        }
+        /* CONTENIDO PRINCIPAL */
         main {
-            border: 1px solid blue;
+            border: 1px solid rgba(0, 0, 255, 0.322);
             padding: 60px;
             margin-bottom: 10px;
+            background: #3f51b529;
 
             display: flex;
 
@@ -48,9 +86,18 @@
             border: 2px solid black;
         }
 
+        header, nav, footer {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
         section {
             width: 75%;
-            padding: 10px;
+            padding: 50px;
+            background: #ffffffdb;
 
             display: flex;
             flex-direction: row;
@@ -59,12 +106,22 @@
         }
         section .recetas {
             width: 40%;
-            border: 1px solid green;
-            margin-bottom: 5px;
-
+            border: 2px solid rgba(0, 128, 0, 0.596);
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 5px;
         }
 
-        img {
+        section .recetas h2 a {
+            color: rgb(73, 73, 73);
+        }
+
+        section .recetas h2 a:hover {
+            color: coral;
+            
+        }
+
+        section .recetas img {
             width: 100px;
             height: 70px;
         }
@@ -74,6 +131,8 @@
             margin-left: auto;
             text-align: center;
             padding: 20px;
+            border-radius: 0 10px 0 10px;
+            background: #c6c6c86b;
         }
 
         aside ul {
@@ -84,56 +143,68 @@
             list-style: none;
         }
 
-        a {
-            text-decoration: none;
+        aside ul li a {
+            color: coral;
+            font-size: 1.2em;
+            font-weight: bold;
         }
 
+        aside ul li a:hover {
+            color: #000;
+            
+        }
+        /* PIE DE PÁGINA */
         footer {
-            border: 1px solid black;
+            border: 1px solid rgb(124, 124, 124);
             padding: 10px;
             margin-bottom: 10px;
-        }
-
-        header, nav, footer {
-            text-align: center;
+            font-size: 1.8em;
+            font-weight: bolder;
+            color: rgb(197, 197, 197);
+            background: rgba(75,75,75, .4);
         }
     </style>
 </head>
 <body>
+    <!-- CONTENEDOR PRINCIPAL -->
     <div class="contenedor">
+        <!-- CABECERA -->
     <header>
-       <a href="index.html">Mis recetas</a> 
+        <a href="index.html"> 
+           <img src="_resources/logo.png" alt="">
+            Mis Recetas
+        </a> 
     </header>
 
     <nav>
-        <a href="index.html">Inicio</a>
+        <a href="index.html" class="active">Inicio</a>
         |
         <a href="recetas.html">Recetas</a>
         |
         <a href="contactar.html">Contactar</a>
     </nav>
-
+        <!-- CONTENIDO PRINCIPAL -->
     <main>
         <section >
             <div class="recetas">
-                <h2><a href="">Receta 1</a> </h2> 
+                <h2><a href="#">Receta 1</a> </h2> 
                 <a href=""> <img src="_resources/espaguetis-de-calabacin.jpg" alt=""></a>
             </div>
             <div class="recetas">
-                <h2><a href="">Receta 2</a> </h2> 
+                <h2><a href="#">Receta 2</a> </h2> 
                <a href=""> <img src="_resources/lubina-con-hummus-de-guisantes.jpg" alt=""></a>
             </div>
             <div class="recetas">
-                <h2><a href="">Receta 3</a> </h2> 
+                <h2><a href="#">Receta 3</a> </h2> 
                <a href=""><img src="_resources/tiramisu-express.jpg" alt=""></a> 
             </div>
             <div class="recetas">
-                <h2><a href="">Receta 4</a> </h2> 
+                <h2><a href="#">Receta 4</a> </h2> 
                <a href=""> <img src="_resources/vichyssoise-de-esparragos-blancos.jpg" alt=""></a>
             </div>
         </section>
         <aside>
-            <h3>Menú del día</h3>
+            <h2>Menú del día</h2>
             <ul>
                 <li><a href="#">Receta 6</a></li>
                 <li><a href="#">Receta 7</a></li>
@@ -141,8 +212,8 @@
             </ul>
         </aside>
     </main>
-
-    <footer>Footer - 2020 &copy;</footer>
+        <!-- PIE DE PÁGINA -->
+    <footer> &copy; Footer - 2020</footer>
 </div>
 </body>
 </html>

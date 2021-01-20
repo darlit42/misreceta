@@ -1,125 +1,115 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <style>
-        table, tr, th, td {
-            border: 2px solid olive;
-            border-collapse: collapse;
-            text-align: center;
-        }
-
-        fieldset {
-            width: 250px;
-        }
-    </style>
 </head>
+
 <body>
+
     <h1>Texto</h1>
-    <h1 id="h1">Titular h1</h1><!--Block-->
+    <h1 id="h1">Titular h1</h1>
     <h2>Titular h2</h2>
-    <h3>Titular h3</h3>
+    <h3 id="mi-h3">Titular h3</h3>
     <h4>Titular h4</h4>
     <h5>Titular h5</h5>
     <h6>Titular h6</h6>
-    <p>Esto es un párrafo</p>
-    <p>Esto es otro párrafo</p><!--------------->
-    <span>Elemento en linea 1 |</span><!--Line-->
-    <span>Elemento en linea 2</span>
-    <br><!--Salto de linea-->
-    <p>Lorem <strong>ipsum</strong>  dolor sit <span style="color: red;">amet</span> <em>consectetur adipisicing elit.</em>  <br> Aperiam praesentium at harum nostrum natus, facilis et, repellat exercitationem commodi eveniet vero possimus nam similique earum? Corporis est nobis nihil molestias.</p>
-    <br>
-    <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab cum laborum esse, error in officia doloremque nostrum incidunt cumque? Corporis in aperiam exercitationem rem omnis eveniet dolores ducimus sapiente, adipisci possimus rerum non dicta tempora quam eligendi ea nostrum.  omnis similique atque repudiandae facilis sint iusto exercitationem? Numquam, distinctio dolorem quo aspernatur, quis fuga ipsam ratione <br> perspiciatis aliquam non pariatur eveniet optio quas impedit? Nihil exercitationem, sint eligendi, dolor tempore laborum illo, suscipit possimus quod ipsam praesentium eveniet neque temporibus similique voluptas accusamus. <span style="font-weight: bolder;"> Dolorum aliquam tenetur consequatur eius architecto aperiam hic libero inventore a tempora nemo molestiae fuga assumenda aut, tempore, illo repudiandae.</span> <br> Unde dignissimos amet quo laboriosam, rem ipsa quas praesentium reprehenderit? Velit suscipit harum culpa. <em> Quod ipsum obcaecati quae beatae repellat recusandae rem nisi. Unde aliquid expedita recusandae earum magni ab blanditiis accusantium at, fugit soluta eius architecto magnam illum corrupti quasi quidem a! Earum eaque consectetur a?</em></p>
+    <p>Esto es un parrafo 1</p>
+    <p>Esto es un parrafo 2</p>
+    <p>Esto es un parrafo 3</p>
+    <span>Esto es un span 1</span>
+    <span>Esto es un span 2</span>
+    <p>Lorem <strong>ipsum</strong> dolor <em>sit</em> amet consectetur adipisicing elit. Est rerum ab fugiat nisi, similique cum distinctio iusto et quis voluptate itaque ipsa reiciendis ad blanditiis voluptas vitae ratione impedit perferendis!</p>
+    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime provident tempora quae. Corporis esse nobis maxime placeat dolores ipsam id, a iure, harum nihil expedita qui distinctio sunt autem.</em></p>
 
     <h1>Enlaces</h1>
-    <a href="index.html">Mis Recetas</a>
-    <a href="http:\\www.google.com" target="_blank">Google</a><!--target="_blank" para enlaces externos-->
-    <a href="#h1">link a h1</a><!--Ancla en el mismo documento-->
-    <a href="mailto:darlit30@gmail.com">darlit30@gmail.com</a><!--Mejor por medio de un formulario-->
-    
+
+    <a href="index.html">esto es un enlace</a>
+    <a href="http://www.google.com" target="_blank">link a Google</a>
+    <a href="#h1">Link a h1</a>
+    <a href="#mi-h3">Link a h3</a>
+    <a href="mailto:lalala@gmail.com">Enviar email a lalala@gmail.com</a>
+
     <hr>
-    <h1>Imagenes</h1>
-    <img src="images/espaguetis-carbonara1.jpg" width="200" alt="Espaguetis carbonara"> <!--no subir imagenes a github para ahorrar espacio-->
-     <!-- <img width="200" src="https://www.pequerecetas.com/wp-content/uploads/2010/10/espaguetis-carbonara1.jpg" alt="Espaguetis carbonara"> -->
 
-     <h1>listas</h1>
-     <h3>Lista no ordenada</h3>
-     <ul>
-         <li>Elemento 1</li>
-         <li>Elemento 2</li>
-         <li>Elemento 3</li>
-         <li>Elemento 4</li>
-     </ul>
-     <h3>Lista ordenada</h3>
-     <ol>
-         <li>Elemento 1</li>
-         <li>Elemento 2</li>
-         <li>Elemento 3</li>
-         <li>Elemento 4</li>
-     </ol>
+    <h1>Imágenes</h1>
+    <img alt="Espaguettis carbonara" width="200" height="100" src="images/espaguetis-carbonara1.jpg">
 
-     <h1>Tablas</h1>
-     <table>
+    <br>
+
+    <h1>Listas</h1>
+    <h3>Lista no ordenada</h3>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <h3>Lista ordenada</h3>
+    <ol>
+        <li>Elemento ordenado 1</li>
+        <li>Elemento ordenado 2</li>
+        <li>Elemento ordenado 3</li>
+        <li>Elemento ordenado 4</li>
+    </ol>
+
+    <h1>Tablas</h1>
+
+    <table>
         <tr>
-            <th>Nombre</th>
-            <th>Nota</th>
-            <th>Asistencia</th>
+            <th>nombre</th>
+            <th>nota</th>
+            <th>asistencia</th>
         </tr>
         <tr>
-            <td>Bruno Hernan</td>
+            <td>Adrián Román</td>
             <td>5</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>Adrián Roman</td>
-            <td>7</td>
-            <td>5</td>
+            <td>2</td>
         </tr>
         <tr>
             <td>Ana María</td>
-            <td>9</td>
             <td>6</td>
+            <td>3</td>
         </tr>
-     </table>
-     <hr>
-     <h1>Formularios</h1>
-     <form action="">
+        <tr>
+            <td>Bruno Hernan</td>
+            <td>7</td>
+            <td>4</td>
+        </tr>
+    </table>
 
-         <input name="miNombre" type="text" placeholder="Nombre:"><!--placeholder añade un texto de referencia que desaparecera en el momento que se situa el cursor-->
-         <input type="number" value="0"><br><!--value añade un valor que al contrario de placeholder no desaparece del campo-->
-         <input type="password" placeholder="Contraseña:">
-         <input type="date">
-         <br>
-         <textarea disabled name="" id="" cols="22" rows="5" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit"></textarea>
-         <hr>
-         <select name="" id="">
-             <option value="">Valencia</option>
-             <option selected  value="">Madrid</option>
-             <option value="">Barcelona</option>
-         </select>
-         <br>
-         <input type="submit" value="Envio 1">
-         <button>Envio 2</button><!--La diferencia con submit es, que no hace falta el value-->
-     </form>
-     <hr>
-     <form action="">
-         <fieldset>
-            <label for="">Introduce tu nombre:</label> <!--label agrupa el input al que va relacionado-->
-            <input type="text"> 
-            <br><br>
-            <label for="">Introduce tu contraseña:</label> 
-            <input type="password">
-            <br><br>
-            <button>Enviar datos</button>
-        </fieldset>
-     </form>
-     <p>Lorem ipsum dolor sit amet.</p>
-     <p>OK</p>
-     <br>
-     <br>
-     <br>
+    <hr>
+
+    <h1>Formularios</h1>
+
+    <form>
+        <input type="text" placeholder="Introduce tu nombre">
+        <hr>
+        <select>
+            <option>Madrid</option>
+            <option>Valencia</option>
+            <option selected>Murcia</option>
+            <option>Brasil</option>
+        </select>
+        <br>
+        <input type="submit" value="Mandar">
+        <br>
+        <br>
+        <textarea placeholder="introduce tu mensaje">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolores porro fugiat quidem quos quisquam laborum sit repellendus, incidunt ea unde corporis nulla minima deserunt ut autem dolorum aliquid consequuntur.s</textarea>
+        <br>
+        <button>Mandar</button>
+    </form>
+    <hr>
+    <form>
+        <label>Introduce tu nombre: <input type="text"></label>
+        <br><br>
+        <label>Introduce tu contraseña: <input type="password"></label>
+        <br><br>
+        <button>Enviar datos</button>
+    </form>
+   
+
 </body>
+
 </html>

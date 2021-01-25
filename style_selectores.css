@@ -4,11 +4,11 @@
 
 /*div {background-color: red;}
 
-div > p {background-color: green;}
+div > p {background-color: green;} selector descendente para hijo directo
 
-div p {background-color: blue;}*/        
+div p {background-color: blue;} selector descendente (afecta a todos los hijos de div que sean un p) */        
 
-/*.box-blue, .box-red {
+/*.box-blue, .box-red { selectores de clase agrupados
     display: block;            
     padding:15px;
     font-size: 20px;
@@ -82,11 +82,11 @@ div p {background-color: blue;}*/
     border: 1px solid black;    
 }
 
-/*.caja.caja-roja { ----> class="caja caja-roja" 
+/*div.caja-roja { ----> class="caja caja-roja" AFECTA A TODOS LOS ELEMENTOS DIV CON ATRIBUTO CLASS CAJA-ROJA 
     background-color: red;        
 } 
 
-.caja .caja-roja { --> <div class="roja">   >   <div class="caja-roja">
+.caja .caja-roja { --> <div class="roja">   >   <div class="caja-roja"> afecta a todas las clases .caja-roja que estén dentro de la clase .caja
 
 }
 

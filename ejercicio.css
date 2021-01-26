@@ -1,0 +1,75 @@
+/* 1º Ejer */
+/* .padre {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+.hijo {
+    background-color: yellow;
+    border: 2px solid  black;
+    width: 100px;
+    height: 100px;
+} */
+
+/* 2º Ejer */
+ /* .padre {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.hijo {
+    background-color: yellow;
+    border: 2px solid  black;
+    width: 100px;
+    height: 200px;
+}  */
+
+/* 3º Ejer 
+.padre {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; por defecto
+    justify-content: center;
+    align-items: center;
+}
+.hijo {
+    background-color: yellow;
+    border: 2px solid  black;
+    width: 100px;
+    height: 100px;
+}*/
+
+/* 4º Ejercicio */
+  .padre {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content:flex-start; por defecto*/ 
+}
+.hijo {
+    background-color: yellow;
+    border: 2px solid  black;
+    width: 100px;
+    height: 100px;
+
+}  
+
+.derecha {
+   margin-left: auto;
+   
+}

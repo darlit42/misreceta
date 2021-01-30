@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: yellow;
+
+    display: flex;
+}
+section {
+    width: 70%;
+    height: 200px;
+    background-color: red;
+}
+aside {
+    min-width: 300px;
+    height: 200px;
+    
+    flex-shrink: 0;
+    background-color: blue;
+}

@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .padre-flex {
     width: 500px;
     height: 600px;
     background-color: red;
+    
     /* Propiedades flexbox para el elemento padre */
     display: flex;  
     flex-direction: row;    

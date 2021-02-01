@@ -1,1 +1,79 @@
-@import 'basic.css'
+@import 'reset.css';
+@import 'basic.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'layout.css';
+@import 'text.css';
+
+/* BARRA DE NAVEGACIÓN */
+.nav-main ul {
+    display: flex;
+    color: rgb(82, 82, 82);
+}
+
+.nav-main li {
+    margin-right: .5em;
+}
+
+
+.nav-main li:last-child {
+    margin-right: 0;
+}
+.nav-main a {
+    color: black;
+}
+
+.nav-main a:hover {
+    text-decoration: underline;
+}
+
+.nav-main .separator {
+    color: #ccc;
+}
+
+
+/* MAIN */
+#main {
+    display: flex;
+}
+
+/* SECTION */
+#main section {
+    width: 70%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main section img {
+    width: 100%;
+    height: auto;
+}
+
+#main section div {
+    background-color: pink;
+    width: 40%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+/* ASIDE */
+
+#main aside {
+    width: 30%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+

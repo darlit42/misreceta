@@ -1,4 +1,11 @@
 * {
-    box-sizing: border-box;
-    background-color: red;
+    box-sizing: border-box;/*para calculo automático del border y padding*/
+    font-family: 'Open Sans', sans-serif !important;
+    /* font: 1em 'Open Sans', sans-serif; */
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

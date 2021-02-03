@@ -4,8 +4,12 @@
     background-color: #444;
 }
 
+.bg-lighter {
+    background-color: #fdfdfd;
+}
+
 .bg-light {
-    background-color: #f3f2f2;
+    background-color: #ededed;
 }
 
 .rounded {

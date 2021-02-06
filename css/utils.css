@@ -1,15 +1,19 @@
 /* FONDOS */
 
 .bg-dark {
-    background-color: #444;
+    background-color: rgba(68, 68, 68, 0.335);
 }
 
 .bg-lighter {
-    background-color: #fdfdfd;
+    background-color: #c0c0c0;
 }
 
 .bg-light {
-    background-color: #ededed;
+    background-color: #faf9f9;
+}
+
+.txt-color {
+    color: red;
 }
 
 .rounded {

@@ -12,6 +12,29 @@
     flex-direction: row;
 }
 
+.row-full {
+    width: 100vw;
+    position: relative;
+    left: 49.3%;
+    right: 50%;
+    margin-right: -50vw;
+    margin-left: -50vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* .flex-element {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    
+} */
+
 /* margenes y paddings */
 
 .mb-05 {
@@ -27,6 +50,26 @@
     margin-bottom: 3em;
 }
 
+.mb-4 {
+    margin-bottom: 5em;
+}
+
+.mt-1 {
+    margin-top: 5em;
+}
+
 .pad-1 {
     padding: 1em;
+}
+
+.pad-2 {
+    padding: 2em;
+}
+
+.pad3 {
+    padding: 2.2em 0;
+}
+
+.separator-block {
+    padding-right: 2em;
 }

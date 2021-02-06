@@ -45,6 +45,10 @@
     width: calc(75% - 1em);
 }
 
+.col-10 {
+    width: calc(83.33% - 1em);
+}
+
 .col-12 {
     width: calc(100% - 1em);
 }
@@ -84,6 +88,10 @@
 
     .col-desk-9 {
         width: calc(75% - 1em);
+    }
+
+    .col-desk-10 {
+        width: calc(83.33% - 1em);
     }
 
     .col-desk-12 {
@@ -129,6 +137,10 @@
         width: calc(75% - 1em);
     }
 
+    .col-tab-10 {
+        width: calc(83.33% - 1em);
+    }
+
     .col-tab-12 {
         width: calc(100% - 1em);
     }
@@ -172,6 +184,10 @@
 
     .col-mob-9 {
         width: calc(75% - 1em);
+    }
+
+    .col-mob-10 {
+        width: calc(83.33% - 1em);
     }
 
     .col-mob-12 {

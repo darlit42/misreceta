@@ -10,10 +10,11 @@
 @import 'nav.css';
 @import 'utils.css';
 @import 'link.css';
-@import 'form.css';
+@import 'input.css';
+@import 'button.css';
 
 
-
+/* @import 'form.css'; */
 /* MAIN */
 /* .main-home {
     display: flex;

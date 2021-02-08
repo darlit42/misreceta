@@ -15,4 +15,6 @@ img {
     height: auto;
 }
 
-
+input {
+    font-size: inherit;
+}

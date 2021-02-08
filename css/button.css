@@ -1,0 +1,26 @@
+.btn {
+    padding: .3em .6em;
+    border: none;
+    
+}
+
+
+.primary {
+    border-color: blueviolet;
+    color: white;
+}
+
+.primary:hover {
+    border-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.secundary {
+    border-color: gold;
+}
+
+.secundary:hover {
+    border-color: #ddd;
+    cursor: pointer;  
+}

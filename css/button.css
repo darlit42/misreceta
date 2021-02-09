@@ -5,22 +5,22 @@
 }
 
 
-.primary {
-    border-color: blueviolet;
+.btn.primary {
+    background-color:  blueviolet;
     color: white;
 }
 
-.primary:hover {
-    border-color: black;
+.btn.primary:hover {
+    background-color:  black;
     color: white;
     cursor: pointer;
 }
 
-.secundary {
+.btn.secundary {
     border-color: gold;
 }
 
-.secundary:hover {
+.btn.secundary:hover {
     border-color: #ddd;
     cursor: pointer;  
 }

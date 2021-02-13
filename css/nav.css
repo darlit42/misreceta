@@ -1,4 +1,6 @@
 /* BARRA DE NAVEGACIÓN */
+
+
 .nav-main ul {
     display: flex;
     color: rgb(82, 82, 82);
@@ -8,6 +10,9 @@
     margin-right: .5em;
 }
 
+.nav-main-a ul li a {
+    color: #fff;
+}
 
 .nav-main li:last-child {
     margin-right: 0;

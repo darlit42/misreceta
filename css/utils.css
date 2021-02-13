@@ -1,4 +1,7 @@
 /* FONDOS */
+.bg-darkness {
+    background: #000;
+}
 
 .bg-dark {
     background-color: rgba(68, 68, 68, 0.335);
@@ -14,6 +17,14 @@
 
 .txt-color {
     color: red;
+}
+
+.txt-color-brown {
+    color: brown;
+}
+
+.txt-color-light {
+    color: #fff;
 }
 
 .rounded {
